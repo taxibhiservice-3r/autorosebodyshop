@@ -15,7 +15,7 @@ export const BUSINESS = {
   phone: "(541) 641-8877",
   phoneTel: "+15416418877",
   email: "", // TODO: confirm with client
-  website: "https://blueroseauto.com",
+  website: "https://www.blueroseautobodyrepair.com",
   social: {
     facebook: "https://www.facebook.com/BlueRoseAuto",
     instagram: "https://www.instagram.com/blueroseauto",

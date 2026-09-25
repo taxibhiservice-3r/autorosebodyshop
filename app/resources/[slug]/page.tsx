@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { BLOG_POSTS, getBlogPostBySlug } from "@/lib/data/blog";
 import { BUSINESS } from "@/lib/data/business";
+import { buildArticleSchema } from "@/lib/schema";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import CTABanner from "@/components/sections/CTABanner";
 
@@ -38,27 +39,13 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getBlogPostBySlug(slug);
   if (!post) notFound();
 
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.title,
+  const articleSchema = buildArticleSchema({
+    slug: post.slug,
+    title: post.title,
     description: post.metaDescription,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
-    author: {
-      "@type": "Organization",
-      name: BUSINESS.name,
-      url: process.env.NEXT_PUBLIC_SITE_URL || "https://blueroseauto.com",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: BUSINESS.name,
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `${process.env.NEXT_PUBLIC_SITE_URL || "https://blueroseauto.com"}/resources/${post.slug}/`,
-    },
-  };
+  });
 
   const otherPosts = BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 3);
 

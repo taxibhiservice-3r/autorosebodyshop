@@ -1,9 +1,9 @@
-import { MetadataRoute } from "next";
+﻿import { MetadataRoute } from "next";
 import { SERVICES } from "@/lib/data/services";
 import { LOCATIONS } from "@/lib/data/locations";
 import { BLOG_POSTS } from "@/lib/data/blog";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://blueroseauto.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.blueroseautobodyrepair.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
