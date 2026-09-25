@@ -107,7 +107,7 @@ export const metadata: Metadata = {
   // ── Verification tokens ──────────────────────────────────────────────────
   // Add these once you verify ownership in the respective tools:
   verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION || "",  // from GSC → HTML tag method
+    google: process.env.GOOGLE_SITE_VERIFICATION || "EgXxBa0bgkDnUuTKCqmwtywTUTfGzVJxHCX7WRuERhs",
     // bing: process.env.BING_SITE_VERIFICATION || "",   // from Bing Webmaster Tools
     // yandex: process.env.YANDEX_VERIFICATION || "",
   },
