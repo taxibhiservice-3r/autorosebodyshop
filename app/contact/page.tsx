@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { BUSINESS } from "@/lib/data/business";
 import Breadcrumb from "@/components/ui/Breadcrumb";
+import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Us — Blue Rose Auto Body Springfield, OR",
@@ -107,40 +108,3 @@ export default function ContactPage() {
   );
 }
 
-function ContactForm() {
-  return (
-    <form action="/api/contact" method="POST" className="space-y-4">
-      {/* Honeypot */}
-      <input type="text" name="_honey" className="hidden" tabIndex={-1} aria-hidden="true" />
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div>
-          <label htmlFor="contact-name" className="block text-sm font-semibold text-[#D1D5DB] mb-1.5">Name *</label>
-          <input id="contact-name" name="name" type="text" required autoComplete="name" className="w-full px-4 py-3 bg-[#232427] border border-[#2E3035] rounded-xl text-white placeholder-[#9CA3AF] focus:outline-none focus:border-[#C0392B] transition-colors text-sm" placeholder="Your full name" />
-        </div>
-        <div>
-          <label htmlFor="contact-phone" className="block text-sm font-semibold text-[#D1D5DB] mb-1.5">Phone *</label>
-          <input id="contact-phone" name="phone" type="tel" required autoComplete="tel" className="w-full px-4 py-3 bg-[#232427] border border-[#2E3035] rounded-xl text-white placeholder-[#9CA3AF] focus:outline-none focus:border-[#C0392B] transition-colors text-sm" placeholder="(541) 555-0000" />
-        </div>
-      </div>
-      <div>
-        <label htmlFor="contact-email" className="block text-sm font-semibold text-[#D1D5DB] mb-1.5">Email</label>
-        <input id="contact-email" name="email" type="email" autoComplete="email" className="w-full px-4 py-3 bg-[#232427] border border-[#2E3035] rounded-xl text-white placeholder-[#9CA3AF] focus:outline-none focus:border-[#C0392B] transition-colors text-sm" placeholder="you@example.com" />
-      </div>
-      <div>
-        <label htmlFor="contact-vehicle" className="block text-sm font-semibold text-[#D1D5DB] mb-1.5">Vehicle (Year / Make / Model)</label>
-        <input id="contact-vehicle" name="vehicle" type="text" className="w-full px-4 py-3 bg-[#232427] border border-[#2E3035] rounded-xl text-white placeholder-[#9CA3AF] focus:outline-none focus:border-[#C0392B] transition-colors text-sm" placeholder="e.g. 2019 Toyota Camry" />
-      </div>
-      <div>
-        <label htmlFor="contact-message" className="block text-sm font-semibold text-[#D1D5DB] mb-1.5">Message *</label>
-        <textarea id="contact-message" name="message" required rows={4} className="w-full px-4 py-3 bg-[#232427] border border-[#2E3035] rounded-xl text-white placeholder-[#9CA3AF] focus:outline-none focus:border-[#C0392B] transition-colors text-sm resize-none" placeholder="Describe your vehicle damage or question…" />
-      </div>
-      <button type="submit" className="w-full py-4 bg-[#C0392B] hover:bg-[#E74C3C] text-white font-bold text-lg rounded-xl transition-colors focus:outline-none focus:ring-2 focus:ring-[#C0392B] focus:ring-offset-2 focus:ring-offset-[#1A1B1E]">
-        Send Message
-      </button>
-      <p className="text-[#9CA3AF] text-xs text-center">
-        Or call us directly at{" "}
-        <a href="tel:+15416418877" className="text-[#C0392B] hover:text-[#E74C3C] font-semibold">(541) 641-8877</a>
-      </p>
-    </form>
-  );
-}
