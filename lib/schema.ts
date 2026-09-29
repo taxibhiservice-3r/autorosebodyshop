@@ -58,6 +58,7 @@ export function buildOrganizationSchema() {
       `${SITE_URL}/Blue-Rose-Auto-logo.webp`,
       `${SITE_URL}/og-image.jpg`,
     ],
+    foundingDate: "1994",
     priceRange: "$$",
     currenciesAccepted: "USD",
     paymentAccepted: "Credit Card, Debit Card, Cash",

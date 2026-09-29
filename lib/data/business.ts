@@ -1,9 +1,9 @@
 export const BUSINESS = {
   name: "Blue Rose Auto Body & Collision",
   shortName: "Blue Rose Auto",
-  tagline: "Expert Collision Repair & Custom Paint in Eugene–Springfield, OR",
+  tagline: "Serving Lane County Since 1994 — Collision Repair & Auto Body, Springfield, OR",
   description:
-    "Blue Rose Auto Body & Collision provides professional collision repair, custom painting, paintless dent removal, and full auto body services in Springfield and Eugene, Oregon.",
+    "Blue Rose Auto Body & Collision has served Springfield and Eugene, Oregon since 1994. Over 30 years of collision repair, custom painting, paintless dent removal, and full auto body services for all of Lane County.",
   address: {
     street: "3436 Olympic St, Ste 200",
     city: "Springfield",
@@ -34,9 +34,8 @@ export const BUSINESS = {
     latitude: 44.0462,
     longitude: -123.0236,
   },
-  // TODO: confirm with client before publishing
-  yearsInBusiness: null as number | null,
-  foundedYear: null as number | null,
+  yearsInBusiness: 32,
+  foundedYear: 1994,
   numTechnicians: null as number | null,
   certifications: [] as string[], // e.g. ["I-CAR Gold Class", "ASE Certified"]
   warrantyTerms: "", // TODO: confirm with client

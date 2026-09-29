@@ -22,7 +22,7 @@ export const LOCATIONS: Location[] = [
     metaDescription:
       "Professional auto body repair, collision repair, and custom paint near Eugene, OR. Blue Rose Auto Body & Collision in Springfield — just minutes away. Call (541) 641-8877.",
     intro:
-      "Blue Rose Auto Body & Collision is the trusted auto body and collision repair shop serving Eugene, Oregon and the surrounding Willamette Valley. Located in nearby Springfield at 3436 Olympic St, Ste 200, we are just minutes from Eugene's east side and serve Eugene drivers for collision repair, paintless dent removal, custom painting, and all auto body services.",
+      "Blue Rose Auto Body & Collision has served Eugene, Oregon drivers since 1994 — over 30 years as the Willamette Valley's trusted collision repair and auto body shop. Located in nearby Springfield at 3436 Olympic St, Ste 200, we are just 10–15 minutes from Eugene's east side via I-105. Eugene drivers come to us for collision repair, paintless dent removal, custom painting, insurance claim handling, and the full range of auto body services — knowing the shop has been here long enough that their neighbors have used us too.",
     driveTime: "Approximately 10–15 minutes from downtown Eugene via I-105 East or Hwy 126.",
     localContext:
       "We serve customers from all Eugene neighborhoods — from the University of Oregon area and South Eugene to Whiteaker, Friendly, and River Road. Whether your vehicle was damaged in a parking lot on Willamette Street, on I-5 near the Valley River Center area, or anywhere across Eugene, our Springfield shop is a quick and easy drive from anywhere in the city.",
@@ -54,7 +54,7 @@ export const LOCATIONS: Location[] = [
     metaDescription:
       "Springfield's trusted auto body and collision repair shop. Blue Rose Auto Body at 3436 Olympic St, Ste 200, Springfield, OR 97478. Call (541) 641-8877.",
     intro:
-      "Blue Rose Auto Body & Collision is located right in Springfield, Oregon at 3436 Olympic St, Ste 200 — making us Springfield's conveniently located auto body shop for collision repair, custom painting, paintless dent removal, and all auto body services. We serve Springfield drivers with expert repairs and a commitment to restoring your vehicle to pre-accident condition.",
+      "Blue Rose Auto Body & Collision has been Springfield's local auto body and collision repair shop since 1994. Located at 3436 Olympic St, Ste 200 — right in the heart of Springfield — we've spent over 30 years repairing vehicles for Springfield residents, handling insurance claims with local insurers, and building a reputation that brings in drivers from across Lane County. If you need collision repair, custom painting, paintless dent removal, or any auto body work in Springfield, you've found your shop.",
     driveTime: "Our shop is located in Springfield — no drive required for local residents.",
     localContext:
       "We serve all Springfield neighborhoods and corridors — from North Springfield and the Thurston area to Mohawk, Glenwood, and the Olympic Street corridor near our shop. If you've had an accident on Main Street, Gateway, or anywhere in the 97477 or 97478 zip codes, we're your local body shop.",

@@ -17,7 +17,7 @@ const CORE_SERVICES = SERVICES.slice(0, 8);
 const TRUST_SIGNALS = [
   { label: "You Choose Your Repair Shop", icon: "⚖️", desc: "Oregon law protects your right to pick any licensed body shop. Your insurer cannot force you to a specific location — and we'll explain that before you sign anything." },
   { label: "Computerized Paint Matching", icon: "🔬", desc: "We read your car's factory color code with a spectrophotometer and mix the exact formula. No guesswork, no blend lines across adjacent panels." },
-  { label: "All of Lane County, OR", icon: "📍", desc: "Springfield · Eugene · Cottage Grove · Veneta · Creswell · Junction City · Coburg · Harrisburg and beyond. If you're in Lane County, drive time is under 40 minutes." },
+  { label: "Serving Lane County Since 1994", icon: "🏆", desc: "Over 30 years on Olympic Street in Springfield. Generations of Lane County drivers — parents and their kids — have brought their vehicles here. That kind of repeat business only comes from doing the work right." },
   { label: "Written Estimate Before Any Work", icon: "📋", desc: "You get a written repair plan and price before we touch your vehicle. No surprise charges at pickup." },
 ];
 
