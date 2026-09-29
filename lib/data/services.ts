@@ -17,12 +17,12 @@ export const SERVICES: Service[] = [
     slug: "collision-repair",
     name: "Collision Repair",
     shortName: "Collision Repair",
-    headline: "Expert Collision Repair in Eugene & Springfield, OR",
-    metaTitle: "Collision Repair Eugene OR | Blue Rose Auto Body",
+    headline: "Collision Repair in Springfield & Eugene, OR — Blue Rose Auto Body",
+    metaTitle: "Collision Repair Springfield OR | Blue Rose Auto Body",
     metaDescription:
-      "Professional collision repair in Eugene and Springfield, OR. Blue Rose Auto Body restores your vehicle to pre-accident condition. Call (541) 641-8877.",
+      "Collision repair in Springfield & Eugene, OR. Structural assessment, panel work & color-matched paint — all insurance accepted. Free written estimate. Call (541) 641-8877.",
     intro:
-      "Blue Rose Auto Body & Collision provides complete collision repair services in Springfield and Eugene, Oregon, restoring vehicles to pre-accident condition using precision repair techniques and factory-matched paint. Our technicians assess structural integrity, repair or replace damaged panels, and perform professional paint refinishing so your vehicle looks and drives as it did before the accident.",
+      "Your car takes a hit — the frame, the panels, the paint all need attention. We assess every layer of damage, fix what needs fixing, and color-match the paint so the repair disappears. Blue Rose Auto Body & Collision handles all insurance paperwork and serves Springfield, Eugene, and all of Lane County. Free written estimate before any work starts.",
     body: `## What Is Collision Repair?
 
 Collision repair is the process of restoring a vehicle's body, structure, and finish after an accident. A proper repair addresses every layer of damage — from visible sheet metal and paint to underlying structural components — ensuring your vehicle is both safe to drive and visually restored.
@@ -90,12 +90,12 @@ See the FAQ section below for answers to common questions about our collision re
     slug: "auto-body-repair",
     name: "Auto Body Repair",
     shortName: "Auto Body Repair",
-    headline: "Auto Body Repair & Paint Services in Springfield & Eugene, OR",
+    headline: "Auto Body Repair in Springfield & Eugene, OR",
     metaTitle: "Auto Body Repair Springfield OR | Blue Rose Auto Body",
     metaDescription:
-      "Full auto body repair and paint services in Springfield & Eugene, OR. Dents, scratches, rust, panel damage — Blue Rose restores it all. Call (541) 641-8877.",
+      "Auto body repair in Springfield & Eugene, OR. Dents, scratches, rust, panel damage — written estimate first, all insurance accepted. Call (541) 641-8877.",
     intro:
-      "Blue Rose Auto Body & Collision offers comprehensive auto body repair services in Springfield and Eugene, Oregon, covering everything from dents and scratches to full panel replacement and paint refinishing. Whether your vehicle has minor surface damage or requires extensive bodywork, our team delivers precise repairs and color-matched paint to restore your car's appearance and value.",
+      "Dents, scratches, rust spots, cracked bumpers — most visible damage on your car's exterior is repairable. We look at what's actually there, explain your options (repair vs. replace, PDR vs. traditional), and give you a written estimate before touching anything. Blue Rose Auto Body & Collision serves Springfield, Eugene, and all of Lane County.",
     body: `## Auto Body Repair Services We Provide
 
 Auto body repair encompasses any work that restores a vehicle's exterior panels, trim, and paint to their original condition. At Blue Rose Auto Body & Collision, we handle the full spectrum of body damage — from a single door ding to multi-panel collision damage.
@@ -148,12 +148,12 @@ We serve customers from Eugene, Springfield, Santa Clara, Coburg, Junction City,
     slug: "custom-paint-refinishing",
     name: "Custom Paint & Refinishing",
     shortName: "Custom Paint",
-    headline: "Custom Auto Paint & Refinishing in Eugene, OR",
-    metaTitle: "Custom Auto Paint Eugene OR | Blue Rose Auto Body",
+    headline: "Custom Auto Paint & Refinishing in Springfield & Eugene, OR",
+    metaTitle: "Custom Auto Paint Springfield OR | Blue Rose Auto Body",
     metaDescription:
-      "Custom auto paint and refinishing in Eugene & Springfield, OR. Color changes, graphics, show-quality finishes. Call Blue Rose at (541) 641-8877.",
+      "Custom auto paint & refinishing in Springfield & Eugene, OR. Full repaints, color changes, matte & specialty finishes. Free estimate. Call (541) 641-8877.",
     intro:
-      "Blue Rose Auto Body & Collision offers professional custom auto paint and refinishing services in Springfield and Eugene, Oregon, from single-panel color matching to full vehicle color changes and specialty finishes. Our paint technicians use professional-grade products and a controlled spray environment to deliver durable, show-quality paint results.",
+      "A fresh paint job does more than change how your car looks — it protects the metal underneath from Oregon's wet winters. We do full vehicle repaints, single-color changes, and panel-by-panel refinishing, all applied in a controlled spray booth for a clean, durable finish. Located in Springfield, serving Eugene and all of Lane County.",
     body: `## Custom Auto Paint Services
 
 A fresh paint job does more than restore your vehicle's looks — it protects the underlying metal from corrosion and significantly improves resale value. At Blue Rose Auto Body & Collision, we provide custom paint services for drivers who want more than a standard repair finish.
@@ -202,12 +202,12 @@ A professionally applied paint job from Blue Rose Auto Body & Collision is desig
     slug: "paintless-dent-repair",
     name: "Paintless Dent Repair (PDR)",
     shortName: "PDR",
-    headline: "Paintless Dent Repair (PDR) in Springfield & Eugene, OR",
-    metaTitle: "Paintless Dent Repair Springfield OR | Blue Rose Auto",
+    headline: "Paintless Dent Repair (PDR) — Springfield & Eugene, OR",
+    metaTitle: "Paintless Dent Repair Springfield OR | Blue Rose Auto Body",
     metaDescription:
-      "Professional paintless dent repair (PDR) in Springfield & Eugene, OR. Fix dents without paint — fast, affordable, and paint-preserving. Call (541) 641-8877.",
+      "PDR in Springfield & Eugene, OR. Remove dents without paint — no filler, no color-match risk. Hail damage, door dings, minor dents. Call (541) 641-8877.",
     intro:
-      "Paintless dent repair (PDR) is a technique that removes dents from a vehicle's body panels without disturbing the factory paint, preserving your vehicle's original finish and resale value. Blue Rose Auto Body & Collision performs professional PDR in Springfield and Eugene, Oregon for hail damage, door dings, and minor dents where the paint surface is intact.",
+      "PDR removes dents without touching the paint — no filler, no repainting, no color-match risk. It works on door dings, hail damage, and shallow dents where the paint surface is still intact. When PDR isn't the right call (cracked paint, sharp creases, inaccessible panels), we tell you that upfront and explain the alternative. Blue Rose Auto Body & Collision serves Springfield, Eugene, and all of Lane County.",
     body: `## What Is Paintless Dent Repair?
 
 Paintless dent repair (PDR) uses specialized tools to carefully massage dented metal back to its original shape from behind the panel — no grinding, no body filler, no repainting. When performed correctly on the right type of dent, PDR results are indistinguishable from the original factory finish.
@@ -716,12 +716,12 @@ New vehicles benefit most from undercoating applied before corrosion begins. Use
     slug: "insurance-claim-repair",
     name: "Insurance Claim Repair",
     shortName: "Insurance Claims",
-    headline: "Insurance Claim Auto Repair in Springfield & Eugene, OR",
-    metaTitle: "Insurance Claim Repair Springfield OR | Blue Rose Auto",
+    headline: "Insurance Claim Repair in Springfield & Eugene, OR — You Choose the Shop",
+    metaTitle: "Insurance Claim Repair Springfield OR | Blue Rose Auto Body",
     metaDescription:
-      "Hassle-free insurance claim auto repair in Springfield & Eugene, OR. We work with all insurers. Blue Rose Auto Body — call (541) 641-8877.",
+      "Insurance claim auto repair in Springfield & Eugene, OR. Oregon law lets you pick your shop — we handle the estimate, adjuster talks & billing. Call (541) 641-8877.",
     intro:
-      "Blue Rose Auto Body & Collision works directly with all major auto insurance companies to manage collision claim repairs in Springfield and Eugene, Oregon, handling the documentation, estimates, and communication so you can focus on getting back on the road. You have the right to choose your own repair shop — we make the process straightforward regardless of your insurance company.",
+      "You don't have to use the shop your insurance company suggests — Oregon law gives you the right to take your car to any licensed body shop. Blue Rose Auto Body & Collision works with all major insurers: we write the estimate, communicate with the adjuster, negotiate any supplements, and bill your insurer directly. You pay your deductible at pickup.",
     body: `## Navigating Auto Insurance Claims
 
 Dealing with insurance after an accident is stressful. At Blue Rose Auto Body & Collision, we've worked with every major insurance company and know exactly how to move your claim forward efficiently.

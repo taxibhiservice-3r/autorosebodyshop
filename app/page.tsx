@@ -6,19 +6,19 @@ import { LOCATIONS } from "@/lib/data/locations";
 import CTABanner from "@/components/sections/CTABanner";
 
 export const metadata: Metadata = {
-  title: `${BUSINESS.name} | Collision Repair Springfield & Eugene, OR`,
+  title: "Blue Rose Auto Body | Collision Repair — Springfield & Eugene, OR",
   description:
-    "Blue Rose Auto Body & Collision in Springfield, OR — expert collision repair, custom painting, paintless dent removal, and auto body services for Eugene, Springfield, and Lane County.",
+    "Auto body & collision repair in Springfield, OR. All insurance accepted, free written estimates. Serving Eugene, Springfield & all of Lane County. Call (541) 641-8877.",
   alternates: { canonical: "/" },
 };
 
 const CORE_SERVICES = SERVICES.slice(0, 8);
 
 const TRUST_SIGNALS = [
-  { label: "All Insurance Companies", icon: "🏦", desc: "We work directly with every major insurer and handle the paperwork for you." },
-  { label: "Precision Paint Matching", icon: "🎯", desc: "Computerized color-matching technology for seamless, factory-accurate results." },
-  { label: "Serving Lane County", icon: "📍", desc: "Eugene, Springfield, Cottage Grove, Veneta, and all surrounding communities." },
-  { label: "Wheelchair Accessible", icon: "♿", desc: "Accessible entrance, restroom, and parking available at our Springfield location." },
+  { label: "You Choose Your Repair Shop", icon: "⚖️", desc: "Oregon law protects your right to pick any licensed body shop. Your insurer cannot force you to a specific location — and we'll explain that before you sign anything." },
+  { label: "Computerized Paint Matching", icon: "🔬", desc: "We read your car's factory color code with a spectrophotometer and mix the exact formula. No guesswork, no blend lines across adjacent panels." },
+  { label: "All of Lane County, OR", icon: "📍", desc: "Springfield · Eugene · Cottage Grove · Veneta · Creswell · Junction City · Coburg · Harrisburg and beyond. If you're in Lane County, drive time is under 40 minutes." },
+  { label: "Written Estimate Before Any Work", icon: "📋", desc: "You get a written repair plan and price before we touch your vehicle. No surprise charges at pickup." },
 ];
 
 export default function HomePage() {
@@ -51,12 +51,13 @@ export default function HomePage() {
             id="hero-heading"
             className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-white leading-tight mb-6 max-w-4xl mx-auto"
           >
-            Expert Collision Repair &amp;{" "}
-            <span className="text-[#C0392B]">Auto Body</span> Services
+            Collision Repair &amp;{" "}
+            <span className="text-[#C0392B]">Auto Body Shop</span> — Springfield, OR
           </h1>
           <p className="text-lg sm:text-xl text-[#9CA3AF] max-w-2xl mx-auto mb-8 leading-relaxed">
-            Blue Rose Auto Body &amp; Collision restores your vehicle to pre-accident condition using precision repair
-            techniques and factory-matched paint — serving Eugene, Springfield, and all of Lane County, Oregon.
+            Your car got hit — now come the estimate calls, the insurance back-and-forth, the rental car scramble.
+            Blue Rose Auto Body &amp; Collision handles the whole process: damage assessment, insurer communication,
+            and factory-matched paint repair. One shop, one written estimate, one less thing to worry about.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <a
@@ -117,8 +118,8 @@ export default function HomePage() {
               Auto Body Services in Eugene &amp; Springfield, OR
             </h2>
             <p className="text-[#9CA3AF] text-lg max-w-2xl mx-auto">
-              From collision repair to custom painting and paintless dent removal — Blue Rose Auto Body &amp; Collision
-              handles every aspect of vehicle restoration.
+              Every repair starts with a thorough damage assessment and a written estimate — no hidden scope, no surprise invoices.
+              We cover everything from a scuffed bumper to major structural collision damage.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -154,19 +155,20 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 id="insurance-heading" className="text-3xl sm:text-4xl font-black text-white mb-4">
-                Hassle-Free Insurance Claim Repairs
+                We Handle the Insurance Paperwork — You Bring the Claim Number
               </h2>
               <p className="text-[#9CA3AF] text-lg leading-relaxed mb-6">
-                Blue Rose Auto Body &amp; Collision works directly with all major insurance companies. Bring your claim
-                number — we handle the documentation, estimates, and insurer communication so you can focus on getting
-                back on the road.
+                Oregon law gives you the right to choose any licensed body shop — your insurance company cannot
+                steer you to a specific location. Blue Rose Auto Body &amp; Collision works directly with all major
+                insurers. We write the estimate, handle any supplement negotiations with the adjuster, and bill
+                your insurer directly. You pay your deductible at pickup and drive away in a properly repaired vehicle.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
-                  "You choose your repair shop — Oregon law protects that right",
-                  "We submit estimates and handle supplement negotiations",
-                  "Direct insurer billing — just pay your deductible",
-                  "We advocate for quality parts and proper repair procedures",
+                  "Oregon law protects your right to choose your repair shop — insurers cannot override it",
+                  "We write the estimate and negotiate supplements with the adjuster directly",
+                  "Direct insurer billing — you pay only your deductible at pickup",
+                  "We push back on pressure to use non-OEM parts when OEM quality matters",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-[#D1D5DB]">
                     <svg className="w-5 h-5 text-[#C0392B] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -184,9 +186,9 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="bg-[#232427] border border-[#2E3035] rounded-2xl p-8">
-              <h3 className="text-xl font-bold text-white mb-2">Request a Free Estimate</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Get a Free Written Estimate</h3>
               <p className="text-[#9CA3AF] text-sm mb-6">
-                Tell us about your vehicle and damage — we&apos;ll get back to you quickly.
+                Describe the damage and your vehicle. We&apos;ll review it and respond — usually within one business day.
               </p>
               <Link
                 href="/get-a-quote/"
@@ -214,11 +216,12 @@ export default function HomePage() {
         <div className="container-xl">
           <div className="text-center mb-10">
             <h2 id="locations-heading" className="text-3xl sm:text-4xl font-black text-white mb-4">
-              Serving Eugene, Springfield &amp; All of Lane County
+              Serving Eugene, Springfield &amp; All of Lane County, OR
             </h2>
             <p className="text-[#9CA3AF] text-lg max-w-2xl mx-auto">
-              From Junction City to Cottage Grove and Veneta to Creswell — if you&apos;re in Lane County, you&apos;re
-              close to Blue Rose Auto Body &amp; Collision.
+              Our shop is on Olympic Street in Springfield — about 10 minutes from central Eugene via I-105.
+              Customers drive in from Junction City on Highway 99W, Cottage Grove on I-5, and Veneta on Highway 126.
+              If you&apos;re in Lane County, you&apos;re within reach.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-8">
@@ -254,7 +257,7 @@ export default function HomePage() {
       <section className="section-pad bg-[#1A1B1E] border-t border-[#2E3035]" aria-labelledby="contact-heading">
         <div className="container-xl">
           <h2 id="contact-heading" className="text-3xl font-black text-white mb-8 text-center">
-            Visit Blue Rose Auto Body &amp; Collision
+            Find Us in Springfield — Blue Rose Auto Body &amp; Collision
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <div className="bg-[#232427] border border-[#2E3035] rounded-xl p-6">
